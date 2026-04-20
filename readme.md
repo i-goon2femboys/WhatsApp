@@ -3,8 +3,8 @@
 A modern, dark-themed WhatsApp client for your Termux XFCE4 desktop environment. Built with CustomTkinter and optimized for standalone web browsing via Chromium's App Mode.
 
 ## Visuals
-![WhatsApp Client Launcher](screenshot1.png)
-![WhatsApp Web Interface](screenshot2.png)
+![WhatsApp Client Launcher](https://raw.github.com/i-goon2femboys/WhatsApp/blob/main/screenshots/screenshot1.png)
+![WhatsApp Web Interface](https://raw.github.com/i-goon2femboys/WhatsApp/blob/main/screenshots/screenshot2.png)
 
 ## Features
 * **Isolated Browser Session**: Uses a dedicated data directory to keep your session separate from your main browser.

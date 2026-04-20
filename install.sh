@@ -10,7 +10,10 @@ pkg update -y
 pkg install -y python-tkinter chromium xdg-utils update-desktop-database
 
 echo "### Installing Python dependencies..."
-pip install customtkinter
+pip install customtkinter Pillow
+
+echo "### Generating custom icon..."
+python3 generate_icon.py
 
 echo "### Setting up application directory..."
 mkdir -p "$APP_DIR"
