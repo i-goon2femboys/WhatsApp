@@ -3,7 +3,7 @@ import subprocess
 import os
 import sys
 
-VERSION = "1.0.0"
+VERSION = "1.0.1"
 
 # Path configuration for Termux
 DATA_DIR = os.path.expanduser("~/.local/share/whatsapp-client")
