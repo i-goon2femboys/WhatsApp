@@ -3,7 +3,7 @@ import os
 import sys
 import shutil
 
-VERSION = "1.0.0"
+VERSION = "1.2.0"
 
 DATA_DIR = os.path.expanduser("~/.local/share/whatsapp-client")
 USER_DATA_DIR = os.path.join(DATA_DIR, "user-data")
