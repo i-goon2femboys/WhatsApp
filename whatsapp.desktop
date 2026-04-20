@@ -1,10 +1,11 @@
 [Desktop Entry]
 Name=WhatsApp
-Comment=Web-based WhatsApp Client for Termux
+Comment=Standalone WhatsApp Web Client
 Exec=/data/data/com.termux/files/home/.local/share/whatsapp-client/launch.sh
 Icon=/data/data/com.termux/files/home/.local/share/whatsapp-client/icon.png
 Terminal=false
 Type=Application
-Categories=Network;Chat;
-Keywords=whatsapp;chat;messenger;
+Categories=Network;Chat;InstantMessaging;
+Keywords=whatsapp;chat;messenger;web;
 StartupNotify=true
+StartupWMClass=WhatsApp
