@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=WhatsApp
+Comment=Web-based WhatsApp Client for Termux
+Exec=/data/data/com.termux/files/home/.local/share/whatsapp-client/launch.sh
+Icon=/data/data/com.termux/files/home/.local/share/whatsapp-client/icon.png
+Terminal=false
+Type=Application
+Categories=Network;Chat;
+Keywords=whatsapp;chat;messenger;
+StartupNotify=true
