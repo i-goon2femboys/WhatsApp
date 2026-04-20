@@ -1,16 +1,16 @@
-# WhatsApp Web Client for Termux XFCE4
+# WhatsApp Client for Termux XFCE4
 
-A modern, dark-themed WhatsApp client for your Termux XFCE4 desktop environment. Built with CustomTkinter and optimized for standalone web browsing via Chromium's App Mode.
+A native, integrated WhatsApp client for your Termux XFCE4 desktop environment. Built with `pywebview` for a standalone desktop application experience.
 
 ## Visuals
-![WhatsApp Client Launcher](https://raw.github.com/i-goon2femboys/WhatsApp/blob/main/screenshots/screenshot1.png)
-![WhatsApp Web Interface](https://raw.github.com/i-goon2femboys/WhatsApp/blob/main/screenshots/screenshot2.png)
+![WhatsApp Client Icon](icon.png)
+![WhatsApp Web Interface](screenshot2.png)
 
 ## Features
-* **Isolated Browser Session**: Uses a dedicated data directory to keep your session separate from your main browser.
-* **Dark Mode**: Forced CustomTkinter dark theme for a sleek look.
-* **XFCE4 Integration**: Adds a shortcut to your desktop menu automatically.
-* **Session Management**: Easy session reset if needed via the launcher.
+* **Integrated Experience**: No more opening external browsers. WhatsApp runs in its own window.
+* **Session Persistence**: Stays logged in using an isolated user data directory.
+* **Custom Icon**: Includes a unique green WhatsApp-style icon generated with Pillow.
+* **Direct XFCE4 Integration**: Adds a shortcut to your desktop menu automatically.
 
 ## Installation
 Run the following command in your terminal:
@@ -19,15 +19,15 @@ chmod +x install.sh
 ./install.sh
 ```
 
-## Launching
-After installation, you can launch it from:
-1.  **XFCE4 Application Menu**: Under the `Internet` or `Network` category.
-2.  **Terminal**: Run `~/.local/share/whatsapp-client/launch.sh`
+## Usage
+*   **Launch**: Open "WhatsApp" from your XFCE4 application menu.
+*   **Terminal Launch**: Run `~/.local/share/whatsapp-client/launch.sh`
+*   **Reset Session**: To log out and clear all data, run `~/.local/share/whatsapp-client/launch.sh --reset`
 
 ## Requirements
 * Termux with X11 and XFCE4 desktop environment.
-* Chromium browser (`pkg install chromium`).
-* Python 3.13+ with CustomTkinter.
+* `webkit2gtk-4.0` (installed via `install.sh`).
+* Python 3.13+ with `pywebview` and `Pillow`.
 
 ## Version
 Current Version: 1.0.0
