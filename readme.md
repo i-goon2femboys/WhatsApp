@@ -2,9 +2,6 @@
 
 A fully integrated, native-feeling WhatsApp Web client for the XFCE4 Desktop Environment running on Termux X11 or proot-distro. Built with `pywebview` and `WebKitGTK`, it delivers a true standalone application window without the clutter of a full browser.
 
-![WhatsApp Client Icon](icon.png)
-
-![WhatsApp Web Interface](screenshot2.png)
 
 ---
 
